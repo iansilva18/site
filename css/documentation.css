@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: whitesmoke
+}
+#header{
+    background: url('../assets/Ian-Barroso-da-Silva.png');
+    background-repeat: no-repeat;
+    background-color: #101010;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+
+}
+#header ul li
+{
+list-style: none;
+display: inline;
+}
+
+img.displayed {
+    display: block;
+    margin-left: center;
+    margin-right: center;
+}
+#header ul 
+{
+    float: right;
+}
+
+#header h2{
+    font-family: poppins;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    
+}
+#introduction{
+    height: auto;
+    width:100%;
+}
+.span{
+    background: #101010;
+    color: rgb(240,240,240);
+    padding: 10px 20px;
+}
+.free{
+    font-size: 28px;
+}
+.free-image-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.free-image-container a img{
+    width: 100%;
+}
+.introduction-heading{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #101010;
+    padding: 30px;
+}
+.introduction-content{
+    padding: 10px;
+    font-size: 22px;
+}
+
+    .ending{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 34px;
+        padding: 40px;
+    }
+    .contact{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 30px;
+        font-size: 20px;
+    }
+    .contact h2{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding: 30px;
+        font-size: 20px;
+    }
